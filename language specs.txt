@@ -1,0 +1,44 @@
+Declaration / Assignment
+
+varibale = expresion      ;  expresion => number/string/statement
+
+Conditional statements
+
+if variable (operater) number     ; operater=>      > , < , >= , <= , ==
+
+fi
+
+Loop Structure
+
+while variable (operater) number   ; operater=>      > , < , >= , <= , ==
+
+done
+
+Input 
+
+scan varibale 
+
+Output 
+
+Print "Strings"
+
+
+sequential
+imperative
+
+if 
+else
+while
+
+
+S ? 'if' C 'then' S 'else' S / 'if' C 'then' S
+
+Expr    ? Sum
+Sum     ? Product (('+' / '-') Product)*
+Product ? Value (('*' / '/') Value)*
+Value   ? [0-9]+ / '(' Expr ')'
+
+Value   ? [0-9.]+ / '(' Expr ')'
+Product ? Expr (('*' / '/') Expr)*
+Sum     ? Expr (('+' / '-') Expr)*
+Expr    ? Product / Sum / Value

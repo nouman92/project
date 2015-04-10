@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Algorithem Executer</title>
+<style type="text/css">
+#Editor {
+	width: 40%;
+	height: 470px;
+	font-size: 16px;
+	color: #00F;
+	float:left;
+	text-decoration: blink;
+	border: medium solid #000;
+}
+#Output {
+	width: 30%;
+	float:left;
+	height: 470px;
+	background-color: #FFF;
+	font-size: 14px;
+	font-style: italic;
+	color: #000;
+	border: medium solid #000;
+}
+#show
+{
+	width: 65%;
+	height: 370px;
+	background-color: #CCC;
+	border: thin dashed #09F;
+	margin: 10px;
+	padding: 10px;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	text-indent: 5;
+	text-align: left;
+	vertical-align: middle;
+}
+#Text
+{
+	width: 90%;
+	height: 370px;
+	background-color: #CCC;
+	border: thin dashed #09F;
+	margin: 10px;
+	padding: 10px;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	text-indent: 5;
+	text-align: left;
+	vertical-align: middle;
+	}
+	</style>
+
+
+</head>
+
+<body>
+<div id="Editor">
+<form method="post" action="" name="form">
+  <p>
+    <label for="Text"> Code<br>
+    </label>
+    <textarea id="Text" name="code" ></textarea>
+    </p>
+  <p>
+    <input type="button"  id="Submit" value="Execute">
+  </p>
+</form></div>
+
+<div id="Output">
+<p >Output</p>
+<div id="show"> </div>
+</div>
+     <script  type="text/javascript" src="db.js"></script>
+      <script  type="text/javascript" src="processing.js"></script>
+    
+     <!--
+    <script>
+$(document).ready(function(){
+  $("#Submit").click(function(){
+	  var code=document.form.code.value ;
+    $("#show").html(code);
+  });
+});</script>  -->
+
+</body>
+</html>
